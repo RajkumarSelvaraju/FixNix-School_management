@@ -1,0 +1,1853 @@
+Script started on Sun 29 Dec 2013 12:17:34 AM PST
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# sucd rootsu[K[Ksudo serbe[K[K[Krver
+sudo: server: command not found
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# rake fedena:plugins:install_all[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo server[Kcd root[3Prootsudo apt-get install irb libopenssl-ruby  libreadline-ruby rdoc ri ruby ruby-dev[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# root[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd rootsu[Kdo server[Ksudo server[Kcd root[3Prootsudo apt-get install irb libopenssl-ruby  libreadline-ruby rdoc ri ruby ruby-dev[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# root[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd rootsu[Kdo server[Ksc[K[Kscript/server
+bash: script/server: Permission denied
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# cd ..
+]0;root@ubuntu: ~root@ubuntu:~# sudo chmod 777 fedena-v2.3-bundle-linux/[K -R
+]0;root@ubuntu: ~root@ubuntu:~# ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         [34;42mfedena-v2.3-bundle-linux[0m  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m                     [01;34mPublic[0m    [01;34mVideos[0m
+]0;root@ubuntu: ~root@ubuntu:~# cd fedena-v2.3-bundle-linux/
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# cd fedena-v2.3-bundle-linux/ls[Ksudo chmod 777 fedena-v2.3-bundle-linux --R[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript/server
+=> Booting WEBrick
+=> Rails 2.3.5 application starting on http://0.0.0.0:3000
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-12-29 00:19:38] INFO  WEBrick 1.3.1
+[2013-12-29 00:19:38] INFO  ruby 1.8.7 (2011-06-30) [x86_64-linux]
+[2013-12-29 00:19:43] INFO  WEBrick::HTTPServer#start: pid=8242 port=3000
+^C[2013-12-29 00:19:48] INFO  going to shutdown ...
+[2013-12-29 00:19:48] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# script/servercd fedena-v2.3-bundle-linux/ls[Ksudo chmod 777 fedena-v2.3-bundle-linux --R ser[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..script/server[2Pudo servercript/server -p 3001
+=> Booting WEBrick
+=> Rails 2.3.5 application starting on http://0.0.0.0:3001
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-12-29 00:21:13] INFO  WEBrick 1.3.1
+[2013-12-29 00:21:13] INFO  ruby 1.8.7 (2011-06-30) [x86_64-linux]
+[2013-12-29 00:21:18] INFO  WEBrick::HTTPServer#start: pid=8255 port=3001
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-12-29 00:21:22) [GET]
+  Parameters: {"action"=>"login", "controller"=>"user"}
+  [4;35;1mConfiguration Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `configurations`[0m
+  [4;36;1mConfiguration Load (0.1ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'Locale') LIMIT 1[0m
+  [4;35;1mNews Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Expired fragment: views/News_latest_fragment (0.0ms)
+  [4;36;1mConfiguration Load (1.1ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'LogoName') LIMIT 1[0m
+Rendering template within layouts/login
+Rendering user/login
+  [4;35;1mSchoolDetail Load (0.4ms)[0m   [0mSELECT * FROM `school_details` LIMIT 1[0m
+  [4;36;1mSchoolDetail Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `school_details`[0m
+Completed in 360ms (View: 99, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2013-12-29 00:21:30) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "controller"=>"user", "user"=>{"password"=>"[FILTERED]", "username"=>"admin"}, "authenticity_token"=>"7f5AEcXhm9Q8X+h4dzU0XltHwUno5NppvrJP6Vm85F0="}
+  [4;36;1mConfiguration Columns (5.5ms)[0m   [0;1mSHOW FIELDS FROM `configurations`[0m
+  [4;35;1mConfiguration Load (0.1ms)[0m   [0mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'Locale') LIMIT 1[0m
+  [4;36;1mNews Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `news`[0m
+Expired fragment: views/News_latest_fragment (0.0ms)
+  [4;35;1mConfiguration Load (0.1ms)[0m   [0mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'LogoName') LIMIT 1[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`username` = 'admin') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`username` = 'admin') LIMIT 1[0m
+Redirected to http://localhost:3001/user/dashboard
+Completed in 212ms (DB: 8) | 302 Found [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#dashboard (for 127.0.0.1 at 2013-12-29 00:21:31) [GET]
+  Parameters: {"action"=>"dashboard", "controller"=>"user"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mConfiguration Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `configurations`[0m
+  [4;36;1mConfiguration Load (0.1ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'Locale') LIMIT 1[0m
+  [4;35;1mNews Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `news`[0m
+Expired fragment: views/News_latest_fragment (0.0ms)
+  [4;36;1mConfiguration Load (0.1ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'StudentAttendanceType') LIMIT 1[0m
+  [4;35;1mConfiguration Load (0.8ms)[0m   [0mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'AvailableModules') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'AvailableModules') [0m
+  [4;36;1mEmployee Load (0.4ms)[0m   [0;1mSELECT * FROM `employees` WHERE (`employees`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/dashboard
+Rendering user/dashboard
+Cached fragment hit: views/News_latest_fragment (0.0ms)
+  [4;35;1mNews Load (16.9ms)[0m   [0mSELECT * FROM `news` ORDER BY created_at DESC LIMIT 3[0m
+Rendered user/_news_bar (19.2ms)
+Cached fragment miss: views/News_latest_fragment (0.0ms)
+Cache miss: current_school_name1 ({})
+  [4;36;1mConfiguration Load (0.1ms)[0m   [0;1mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'InstitutionName') LIMIT 1[0m
+Cache write (will save 0.56ms): current_school_name1
+  [4;35;1mReminder Load (0.6ms)[0m   [0mSELECT * FROM `reminders` WHERE (recipient = '1') [0m
+Rendered layouts/_reminder_count (20.1ms)
+Cache miss: user_main_menu1 ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mprivileges_users Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `privileges_users`[0m
+  [4;36;1mPrivilege Load (0.3ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;35;1mConfiguration Load (0.1ms)[0m   [0mSELECT * FROM `configurations` WHERE (`configurations`.`config_key` = 'CCE') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+Rendered layouts/_main_menu (363.3ms)
+Cache write (will save 373.53ms): user_main_menu1
+Cache miss: user_autocomplete_menu1 ({})
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `privileges` INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id WHERE (`privileges_users`.user_id = 1 ) [0m
+Cache write (will save 230.26ms): user_autocomplete_menu1
+Rendered layouts/_autosuggest_menu (234.2ms)
+Completed in 1032ms (View: 821, DB: 24) | 200 OK [http://localhost/user/dashboard]
+^C[2013-12-29 00:23:22] INFO  going to shutdown ...
+[2013-12-29 00:23:22] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git init
+The program 'git' is currently not installed.  You can install it by typing:
+apt-get install git
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# ^C
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# apt-get install git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 52%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  thunderbird-globalmenu
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-arch git-cvs git-svn
+  git-email git-gui gitk gitweb
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 199 not upgraded.
+Need to get 6,741 kB of archives.
+After this operation, 15.2 MB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+0% [Working]            0% [Waiting for headers]                        Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main liberror-perl all 0.17-1 [23.8 kB]
+                        0% [1 liberror-perl 0 B/23.8 kB 0%]                                   0% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main git-man all 1:1.7.9.5-1 [630 kB]
+            0% [2 git-man 0 B/630 kB 0%]                            1% [2 git-man 31.6 kB/630 kB 5%]                                1% [2 git-man 69.4 kB/630 kB 11%]                                 3% [2 git-man 145 kB/630 kB 23%]4% [2 git-man 240 kB/630 kB 38%]6% [2 git-man 348 kB/630 kB 55%]7% [2 git-man 456 kB/630 kB 72%]9% [2 git-man 565 kB/630 kB 90%]                                10% [Working]             Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/main git amd64 1:1.7.9.5-1 [6,087 kB]
+             10% [3 git 0 B/6,087 kB 0%]                           11% [3 git 110 kB/6,087 kB 2%]                              13% [3 git 218 kB/6,087 kB 4%]                                     145 kB/s 40s15% [3 git 327 kB/6,087 kB 5%]                                     145 kB/s 39s16% [3 git 435 kB/6,087 kB 7%]                                     145 kB/s 39s18% [3 git 544 kB/6,087 kB 9%]                                     145 kB/s 38s19% [3 git 652 kB/6,087 kB 11%]                                    145 kB/s 37s21% [3 git 761 kB/6,087 kB 12%]                                    145 kB/s 36s23% [3 git 869 kB/6,087 kB 14%]                                    145 kB/s 36s24% [3 git 976 kB/6,087 kB 16%]                                    145 kB/s 35s26% [3 git 1,084 kB/6,087 kB 18%]                                  145 kB/s 34s27% [3 git 1,193 kB/6,087 kB 20%]                                  145 kB/s 33s29% [3 git 1,301 kB/6,087 kB 21%]                                  145 kB/s 33s31% [3 git 1,409 kB/6,087 kB 23%]                                  145 kB/s 32s32% [3 git 1,515 kB/6,087 kB 25%]                                  216 kB/s 21s34% [3 git 1,623 kB/6,087 kB 27%]                                  216 kB/s 20s35% [3 git 1,732 kB/6,087 kB 28%]                                  216 kB/s 20s37% [3 git 1,839 kB/6,087 kB 30%]                                  216 kB/s 19s39% [3 git 1,947 kB/6,087 kB 32%]                                  216 kB/s 19s40% [3 git 2,056 kB/6,087 kB 34%]                                  216 kB/s 18s42% [3 git 2,164 kB/6,087 kB 36%]                                  216 kB/s 18s43% [3 git 2,271 kB/6,087 kB 37%]                                  216 kB/s 17s45% [3 git 2,381 kB/6,087 kB 39%]                                  216 kB/s 17s47% [3 git 2,488 kB/6,087 kB 41%]                                  216 kB/s 16s48% [3 git 2,598 kB/6,087 kB 43%]                                  216 kB/s 16s50% [3 git 2,705 kB/6,087 kB 44%]                                  216 kB/s 15s51% [3 git 2,815 kB/6,087 kB 46%]                                  216 kB/s 15s53% [3 git 2,922 kB/6,087 kB 48%]                                  216 kB/s 14s55% [3 git 3,032 kB/6,087 kB 50%]                                  216 kB/s 14s56% [3 git 3,139 kB/6,087 kB 52%]                                  216 kB/s 13s58% [3 git 3,249 kB/6,087 kB 53%]                                  216 kB/s 13s59% [3 git 3,356 kB/6,087 kB 55%]                                  216 kB/s 12s61% [3 git 3,464 kB/6,087 kB 57%]                                  216 kB/s 12s63% [3 git 3,572 kB/6,087 kB 59%]                                  216 kB/s 11s64% [3 git 3,680 kB/6,087 kB 60%]                                  216 kB/s 11s66% [3 git 3,789 kB/6,087 kB 62%]                                  216 kB/s 10s67% [3 git 3,895 kB/6,087 kB 64%]                                  216 kB/s 10s69% [3 git 4,003 kB/6,087 kB 66%]                                   216 kB/s 9s71% [3 git 4,112 kB/6,087 kB 68%]                                   216 kB/s 9s72% [3 git 4,220 kB/6,087 kB 69%]                                   216 kB/s 8s74% [3 git 4,328 kB/6,087 kB 71%]                                   216 kB/s 8s76% [3 git 4,436 kB/6,087 kB 73%]                                   216 kB/s 7s77% [3 git 4,544 kB/6,087 kB 75%]                                   216 kB/s 7s79% [3 git 4,653 kB/6,087 kB 76%]                                   216 kB/s 6s80% [3 git 4,761 kB/6,087 kB 78%]                                   216 kB/s 6s82% [3 git 4,870 kB/6,087 kB 80%]                                   216 kB/s 5s84% [3 git 4,978 kB/6,087 kB 82%]                                   216 kB/s 5s85% [3 git 5,085 kB/6,087 kB 84%]                                   216 kB/s 4s87% [3 git 5,195 kB/6,087 kB 85%]                                   216 kB/s 4s88% [3 git 5,302 kB/6,087 kB 87%]                                   216 kB/s 3s90% [3 git 5,410 kB/6,087 kB 89%]                                   216 kB/s 3s92% [3 git 5,518 kB/6,087 kB 91%]                                   216 kB/s 2s93% [3 git 5,626 kB/6,087 kB 92%]                                   216 kB/s 2s95% [3 git 5,735 kB/6,087 kB 94%]                                   216 kB/s 1s96% [3 git 5,843 kB/6,087 kB 96%]                                   216 kB/s 1s98% [3 git 5,951 kB/6,087 kB 98%]                                   216 kB/s 0s100% [3 git 6,060 kB/6,087 kB 100%]                                 216 kB/s 0s100% [Working]                                                      216 kB/s 0s                                                                               Fetched 6,741 kB in 33s (203 kB/s)
+Selecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 155609 files and directories currently installed.)
+Unpacking liberror-perl (from .../liberror-perl_0.17-1_all.deb) ...
+Selecting previously unselected package git-man.
+Unpacking git-man (from .../git-man_1%3a1.7.9.5-1_all.deb) ...
+Selecting previously unselected package git.
+Unpacking git (from .../git_1%3a1.7.9.5-1_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up liberror-perl (0.17-1) ...
+Setting up git-man (1:1.7.9.5-1) ...
+Setting up git (1:1.7.9.5-1) ...
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git add README.md
+fatal: pathspec 'README.md' did not match any files
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git add .
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git commit -m "first commit"
+[master d327d40] first commit
+ Committer: root <root@ubuntu.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 94 files changed, 19113 insertions(+), 1309 deletions(-)
+ create mode 100755 .bundle/install.log
+ create mode 100755 Gemfile
+ create mode 100755 Gemfile.lock
+ mode change 100644 => 100755 NOTICE
+ mode change 100644 => 100755 app/controllers/assessment_scores_controller.rb
+ mode change 100644 => 100755 app/controllers/assessment_tools_controller.rb
+ mode change 100644 => 100755 app/controllers/cce_exam_categories_controller.rb
+ mode change 100644 => 100755 app/controllers/cce_grade_sets_controller.rb
+ mode change 100644 => 100755 app/controllers/cce_reports_controller.rb
+ mode change 100644 => 100755 app/controllers/cce_settings_controller.rb
+ mode change 100644 => 100755 app/controllers/cce_weightages_controller.rb
+ mode change 100644 => 100755 app/controllers/class_designations_controller.rb
+ mode change 100644 => 100755 app/controllers/descriptive_indicators_controller.rb
+ mode change 100644 => 100755 app/controllers/exam_reports_controller.rb
+ mode change 100644 => 100755 app/controllers/fa_criterias_controller.rb
+ mode change 100644 => 100755 app/controllers/fa_groups_controller.rb
+ mode change 100644 => 100755 app/controllers/observation_groups_controller.rb
+ mode change 100644 => 100755 app/controllers/observations_controller.rb
+ mode change 100644 => 100755 app/controllers/ranking_levels_controller.rb
+ mode change 100644 => 100755 app/controllers/scheduled_jobs_controller.rb
+ mode change 100644 => 100755 app/controllers/timetable_entries_controller.rb
+ mode change 100644 => 100755 app/helpers/assessment_scores_helper.rb
+ mode change 100644 => 100755 app/helpers/assessment_tools_helper.rb
+ mode change 100644 => 100755 app/helpers/autosuggest_menu_helper.rb
+ mode change 100644 => 100755 app/helpers/cce_exam_categories_helper.rb
+ mode change 100644 => 100755 app/helpers/cce_grade_sets_helper.rb
+ mode change 100644 => 100755 app/helpers/cce_reports_helper.rb
+ mode change 100644 => 100755 app/helpers/cce_weightages_helper.rb
+ mode change 100644 => 100755 app/helpers/class_designations_helper.rb
+ mode change 100644 => 100755 app/helpers/descriptive_indicators_helper.rb
+ mode change 100644 => 100755 app/helpers/fa_criterias_helper.rb
+ mode change 100644 => 100755 app/helpers/fa_groups_helper.rb
+ mode change 100644 => 100755 app/helpers/observation_groups_helper.rb
+ mode change 100644 => 100755 app/helpers/observations_helper.rb
+ mode change 100644 => 100755 app/helpers/ranking_levels_helper.rb
+ mode change 100644 => 100755 app/helpers/remote_link_renderer.rb
+ mode change 100644 => 100755 app/helpers/scheduled_jobs_helper.rb
+ mode change 100644 => 100755 app/helpers/timetable_entries_helper.rb
+ mode change 100644 => 100755 app/helpers/timetables_helper.rb
+ mode change 100644 => 100755 app/models/assessment_score.rb
+ mode change 100644 => 100755 app/models/assessment_tool.rb
+ mode change 100644 => 100755 app/models/batch_group.rb
+ mode change 100644 => 100755 app/models/batch_student.rb
+ mode change 100644 => 100755 app/models/cce_exam_category.rb
+ mode change 100644 => 100755 app/models/cce_grade.rb
+ mode change 100644 => 100755 app/models/cce_grade_set.rb
+ mode change 100644 => 100755 app/models/cce_report.rb
+ mode change 100644 => 100755 app/models/cce_weightage.rb
+ mode change 100644 => 100755 app/models/class_designation.rb
+ mode change 100644 => 100755 app/models/descriptive_indicator.rb
+ mode change 100644 => 100755 app/models/fa_criteria.rb
+ mode change 100644 => 100755 app/models/fa_group.rb
+ mode change 100644 => 100755 app/models/finance/batch_fee_collection_discount.rb
+ mode change 100644 => 100755 app/models/finance/batch_fee_discount.rb
+ mode change 100644 => 100755 app/models/finance/fee_collection_discount.rb
+ mode change 100644 => 100755 app/models/finance/fee_collection_particular.rb
+ mode change 100644 => 100755 app/models/finance/fee_discount.rb
+ mode change 100644 => 100755 app/models/finance/student_category_fee_collection_discount.rb
+ mode change 100644 => 100755 app/models/finance/student_category_fee_discount.rb
+ mode change 100644 => 100755 app/models/finance/student_fee_collection_discount.rb
+ mode change 100644 => 100755 app/models/finance/student_fee_discount.rb
+ mode change 100644 => 100755 app/models/grouped_batch.rb
+ mode change 100644 => 100755 app/models/grouped_exam_report.rb
+ mode change 100644 => 100755 app/models/language.rb
+ mode change 100644 => 100755 app/models/observation.rb
+ mode change 100644 => 100755 app/models/observation_group.rb
+ mode change 100644 => 100755 app/models/previous_exam_score.rb
+ mode change 100644 => 100755 app/models/ranking_level.rb
+ mode change 100644 => 100755 app/models/school_detail.rb
+ mode change 100644 => 100755 app/models/sms_log.rb
+ mode change 100644 => 100755 app/models/sms_message.rb
+ mode change 100644 => 100755 app/models/subject_leave.rb
+ mode change 100644 => 100755 app/models/time_zone.rb
+ mode change 100644 => 100755 app/models/timetable.rb
+ mode change 100644 => 100755 app/models/user_event.rb
+ mode change 100644 => 100755 app/views/archived_employee/profile_pdf.erb
+ mode change 100644 => 100755 app/views/archived_student/generated_report4_pdf.erb
+ mode change 100644 => 100755 app/views/archived_student/generated_report_pdf.erb
+ mode change 100644 => 100755 app/views/assessment_scores/_fa_sheet.erb
+ mode change 100644 => 100755 app/views/assessment_scores/_observation_sheet.erb
+ mode change 100644 => 100755 app/views/assessment_scores/_student_list.erb
+ mode change 100644 => 100755 app/views/assessment_scores/exam_fa_groups.html.erb
+ mode change 100644 => 100755 app/views/assessment_scores/fa_scores.html.erb
+ mode change 100644 => 100755 app/views/assessment_scores/observation_groups.html.erb
+ mode change 100644 => 100755 app/views/assessment_scores/observation_scores.html.erb
+ mode change 100644 => 100755 app/views/assessment_tools/_assessment_tools.erb
+ mode change 100644 => 100755 app/views/assessment_tools/_edit.erb
+ mode change 100644 => 100755 app/views/assessment_tools/_errors.html.erb
+ mode change 100644 => 100755 app/views/assessment_tools/_new.erb
+ mode change 100644 => 100755 app/views/assessment_tools/create.rjs
+ mode change 100644 => 100755 app/views/assessment_tools/edit.rjs
+ mode change 100644 => 100755 app/views/assessment_tools/index.html.erb
+ mode change 100644 => 100755 app/views/assessment_tools/new.rjs
+ mode change 100644 => 100755 app/views/assessment_tools/update.rjs
+ mode change 100644 => 100755 app/views/attendance_reports/filter_report_pdf.erb
+ mode change 100644 => 100755 app/views/attendance_reports/report_pdf.erb
+ mode change 100644 => 100755 app/views/batches/_list.html.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/_categories.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/_edit.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/_errors.html.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/_new.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/create.rjs
+ mode change 100644 => 100755 app/views/cce_exam_categories/edit.rjs
+ mode change 100644 => 100755 app/views/cce_exam_categories/index.html.erb
+ mode change 100644 => 100755 app/views/cce_exam_categories/new.rjs
+ mode change 100644 => 100755 app/views/cce_exam_categories/update.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/_edit.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_edit_grade.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_errors.html.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_grade_sets.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_grades.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_new.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/_new_grade.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/create.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/create_grade.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/edit.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/edit_grade.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/index.html.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/new.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/new_grade.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/show.html.erb
+ mode change 100644 => 100755 app/views/cce_grade_sets/update.rjs
+ mode change 100644 => 100755 app/views/cce_grade_sets/update_grade.rjs
+ mode change 100644 => 100755 app/views/cce_reports/_student_list.erb
+ mode change 100644 => 100755 app/views/cce_reports/_student_report.html.erb
+ mode change 100644 => 100755 app/views/cce_reports/create_reports.html.erb
+ mode change 100644 => 100755 app/views/cce_reports/index.html.erb
+ mode change 100644 => 100755 app/views/cce_reports/student_report_pdf.erb
+ mode change 100644 => 100755 app/views/cce_reports/student_transcript.html.erb
+ mode change 100644 => 100755 app/views/cce_reports/student_wise_report.html.erb
+ mode change 100644 => 100755 app/views/cce_settings/basic.html.erb
+ mode change 100644 => 100755 app/views/cce_settings/co_scholastic.html.erb
+ mode change 100644 => 100755 app/views/cce_settings/index.html.erb
+ mode change 100644 => 100755 app/views/cce_settings/scholastic.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_courses.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_edit.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_errors.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_new.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_select_weightage.erb
+ mode change 100644 => 100755 app/views/cce_weightages/_weightages.erb
+ mode change 100644 => 100755 app/views/cce_weightages/assign_courses.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/assign_weightages.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/create.rjs
+ mode change 100644 => 100755 app/views/cce_weightages/edit.rjs
+ mode change 100644 => 100755 app/views/cce_weightages/index.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/new.rjs
+ mode change 100644 => 100755 app/views/cce_weightages/show.html.erb
+ mode change 100644 => 100755 app/views/cce_weightages/update.rjs
+ mode change 100644 => 100755 app/views/class_designations/_class_designations.html.erb
+ mode change 100644 => 100755 app/views/class_designations/_class_edit_form.html.erb
+ mode change 100644 => 100755 app/views/class_designations/_class_form.html.erb
+ mode change 100644 => 100755 app/views/class_designations/_course_class_designations.html.erb
+ mode change 100644 => 100755 app/views/class_designations/_form_errors.html.erb
+ mode change 100644 => 100755 app/views/class_designations/index.html.erb
+ mode change 100644 => 100755 app/views/courses/_batch_group_edit_form.html.erb
+ mode change 100644 => 100755 app/views/courses/_batch_group_form.html.erb
+ mode change 100644 => 100755 app/views/courses/_batch_groups.html.erb
+ mode change 100644 => 100755 app/views/courses/_form_errors.html.erb
+ mode change 100644 => 100755 app/views/courses/grouped_batches.html.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/_descriptive_indicators.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/_edit.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/_errors.html.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/_new.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/create.rjs
+ mode change 100644 => 100755 app/views/descriptive_indicators/edit.rjs
+ mode change 100644 => 100755 app/views/descriptive_indicators/index.html.erb
+ mode change 100644 => 100755 app/views/descriptive_indicators/new.rjs
+ mode change 100644 => 100755 app/views/descriptive_indicators/update.rjs
+ mode change 100644 => 100755 app/views/employee/advanced_search_pdf.erb
+ mode change 100644 => 100755 app/views/employee/department_payslip_pdf.erb
+ mode change 100644 => 100755 app/views/employee/employee_individual_payslip_pdf.erb
+ mode change 100644 => 100755 app/views/employee/individual_payslip_pdf.erb
+ mode change 100644 => 100755 app/views/employee/profile_pdf.erb
+ mode change 100644 => 100755 app/views/employee/remove_subordinate_employee.erb
+ mode change 100644 => 100755 app/views/employee/timetable_pdf.erb
+ mode change 100644 => 100755 app/views/employee/view_employee_payslip.html.erb
+ mode change 100644 => 100755 app/views/employee_attendance/_update_leave_history.html.erb
+ mode change 100644 => 100755 app/views/employee_attendance/approve_remarks.rjs
+ mode change 100644 => 100755 app/views/employee_attendance/deny_remarks.rjs
+ mode change 100644 => 100755 app/views/employee_attendance/employee_attendance_pdf.erb
+ mode change 100644 => 100755 app/views/employee_attendance/leave_history.erb
+ mode change 100644 => 100755 app/views/employee_attendance/leave_reset_settings.erb
+ mode change 100644 => 100755 app/views/employee_attendances/_errors.html.erb
+ mode change 100644 => 100755 app/views/event/edit_event.erb
+ mode change 100644 => 100755 app/views/exam/_batch_groups.html.erb
+ mode change 100644 => 100755 app/views/exam/_batch_select.html.erb
+ mode change 100644 => 100755 app/views/exam/_course_select.html.erb
+ mode change 100644 => 100755 app/views/exam/_exam_wise_report.erb
+ mode change 100644 => 100755 app/views/exam/_exam_wise_student_list.erb
+ mode change 100644 => 100755 app/views/exam/_grouped_exam_report.erb
+ mode change 100644 => 100755 app/views/exam/_inactive_batch_list.html.erb
+ mode change 100644 => 100755 app/views/exam/_inactive_batches.html.erb
+ mode change 100644 => 100755 app/views/exam/_inactive_exam_groups.html.erb
+ mode change 100644 => 100755 app/views/exam/_levels.html.erb
+ mode change 100644 => 100755 app/views/exam/_previous_exam_marks.html.erb
+ mode change 100644 => 100755 app/views/exam/_rank_subject_select.html.erb
+ mode change 100644 => 100755 app/views/exam/_report_batch_groups.html.erb
+ mode change 100644 => 100755 app/views/exam/_report_type_select.html.erb
+ mode change 100644 => 100755 app/views/exam/_select_batch.html.erb.erb
+ mode change 100644 => 100755 app/views/exam/_select_batch_group.html.erb
+ mode change 100644 => 100755 app/views/exam/_student_list.erb
+ mode change 100644 => 100755 app/views/exam/_student_selection.html.erb
+ mode change 100644 => 100755 app/views/exam/_subject_list.html.erb
+ mode change 100644 => 100755 app/views/exam/attendance_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/batch_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/combined_grouped_exam_report_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/combined_report.html.erb
+ mode change 100644 => 100755 app/views/exam/consolidated_exam_report_pdf.erb
+ mode change 100644 => 100755 app/views/exam/course_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/edit_previous_marks.html.erb
+ mode change 100644 => 100755 app/views/exam/generate_previous_reports.html.erb
+ mode change 100644 => 100755 app/views/exam/generate_reports.html.erb
+ mode change 100644 => 100755 app/views/exam/generated_report2_pdf.erb
+ mode change 100644 => 100755 app/views/exam/generated_report4_pdf.erb
+ mode change 100644 => 100755 app/views/exam/generated_report_pdf.erb
+ mode change 100644 => 100755 app/views/exam/previous_batch_exams.html.erb
+ mode change 100644 => 100755 app/views/exam/previous_years_marks_overview_pdf.erb
+ mode change 100644 => 100755 app/views/exam/ranking_level_report.html.erb
+ mode change 100644 => 100755 app/views/exam/report_center.html.erb
+ mode change 100644 => 100755 app/views/exam/settings.html.erb
+ mode change 100644 => 100755 app/views/exam/student_attendance_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/student_attendance_rank_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_batch_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/student_batch_rank_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_combined_report.html.erb
+ mode change 100644 => 100755 app/views/exam/student_combined_report_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_course_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/student_course_rank_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_ranking_level_report.html.erb
+ mode change 100644 => 100755 app/views/exam/student_ranking_level_report_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_school_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/student_school_rank_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_subject_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/student_subject_rank_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/student_transcript.html.erb
+ mode change 100644 => 100755 app/views/exam/student_transcript_pdf.html.erb
+ mode change 100644 => 100755 app/views/exam/subject_rank.html.erb
+ mode change 100644 => 100755 app/views/exam/transcript.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/_batch_select.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/_grouped_exam_report.erb
+ mode change 100644 => 100755 app/views/exam_reports/_inactive_batches.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/_report_type.erb
+ mode change 100644 => 100755 app/views/exam_reports/_student_list.erb
+ mode change 100644 => 100755 app/views/exam_reports/archived_batches_exam_report.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/archived_batches_exam_report_pdf.erb
+ mode change 100644 => 100755 app/views/exam_reports/archived_exam_wise_report.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/consolidated_exam_report.html.erb
+ mode change 100644 => 100755 app/views/exam_reports/consolidated_exam_report_pdf.erb
+ mode change 100644 => 100755 app/views/fa_groups/_edit.erb
+ mode change 100644 => 100755 app/views/fa_groups/_edit_fa_criteria.erb
+ mode change 100644 => 100755 app/views/fa_groups/_errors.html.erb
+ mode change 100644 => 100755 app/views/fa_groups/_fa_criterias.erb
+ mode change 100644 => 100755 app/views/fa_groups/_fa_groups.erb
+ mode change 100644 => 100755 app/views/fa_groups/_new.erb
+ mode change 100644 => 100755 app/views/fa_groups/_new_fa_criteria.erb
+ mode change 100644 => 100755 app/views/fa_groups/_select_fa_groups.erb
+ mode change 100644 => 100755 app/views/fa_groups/_subjects.html.erb
+ mode change 100644 => 100755 app/views/fa_groups/assign_fa_groups.erb
+ mode change 100644 => 100755 app/views/fa_groups/create.rjs
+ mode change 100644 => 100755 app/views/fa_groups/create_fa_criteria.rjs
+ mode change 100644 => 100755 app/views/fa_groups/edit.rjs
+ mode change 100644 => 100755 app/views/fa_groups/edit_fa_criteria.rjs
+ mode change 100644 => 100755 app/views/fa_groups/index.html.erb
+ mode change 100644 => 100755 app/views/fa_groups/new.rjs
+ mode change 100644 => 100755 app/views/fa_groups/new_fa_criteria.rjs
+ mode change 100644 => 100755 app/views/fa_groups/show.html.erb
+ mode change 100644 => 100755 app/views/fa_groups/update.rjs
+ mode change 100644 => 100755 app/views/fa_groups/update_fa_criteria.rjs
+ mode change 100644 => 100755 app/views/finance/_accept_form.erb
+ mode change 100644 => 100755 app/views/finance/_additional_fees_errors.html.erb
+ mode change 100644 => 100755 app/views/finance/_batch_wise_discount_form.erb
+ mode change 100644 => 100755 app/views/finance/_batches_list.html.erb
+ mode change 100644 => 100755 app/views/finance/_category_wise_discount_form.erb
+ mode change 100644 => 100755 app/views/finance/_fee_discount_batch_list.html.erb
+ mode change 100644 => 100755 app/views/finance/_fee_discount_category_list.html.erb
+ mode change 100644 => 100755 app/views/finance/_fee_discount_edit_form.html.erb
+ mode change 100644 => 100755 app/views/finance/_show_fee_discounts.erb
+ mode change 100644 => 100755 app/views/finance/_student_wise_discount_form.erb
+ mode change 100644 => 100755 app/views/finance/_update_master_fee_category_list.html.erb
+ mode change 100644 => 100755 app/views/finance/accept.rjs
+ mode change 100644 => 100755 app/views/finance/asset_pdf.erb
+ mode change 100644 => 100755 app/views/finance/batch_wise_discount_create.rjs
+ mode change 100644 => 100755 app/views/finance/category_wise_fee_discount_create.rjs
+ mode change 100644 => 100755 app/views/finance/collection_details_view.html.erb
+ mode change 100644 => 100755 app/views/finance/donation_edit.erb
+ mode change 100644 => 100755 app/views/finance/donation_receipt_pdf.erb
+ mode change 100644 => 100755 app/views/finance/edit_fee_discount.rjs
+ mode change 100644 => 100755 app/views/finance/expense_list_pdf.erb
+ mode change 100644 => 100755 app/views/finance/fee_collection_new.html.erb
+ mode change 100644 => 100755 app/views/finance/fee_defaulters_pdf.erb
+ mode change 100644 => 100755 app/views/finance/fee_discount_new.erb
+ mode change 100644 => 100755 app/views/finance/fee_discounts.html.erb
+ mode change 100644 => 100755 app/views/finance/fees_particulars_new.html.erb
+ mode change 100644 => 100755 app/views/finance/income_details.erb
+ mode change 100644 => 100755 app/views/finance/income_details_pdf.erb
+ mode change 100644 => 100755 app/views/finance/income_list_pdf.erb
+ mode change 100644 => 100755 app/views/finance/liability_pdf.erb
+ mode change 100644 => 100755 app/views/finance/pdf_fee_structure.erb
+ mode change 100644 => 100755 app/views/finance/student_fee_receipt_pdf.erb
+ mode change 100644 => 100755 app/views/finance/student_wise_fee_discount_create.rjs
+ mode change 100644 => 100755 app/views/finance/transaction_pdf.erb
+ mode change 100644 => 100755 app/views/finance/update_fee_discount.rjs
+ mode change 100644 => 100755 app/views/finance/view_employee_payslip.html.erb
+ mode change 100644 => 100755 app/views/layouts/_autosuggest_menu.html.erb
+ mode change 100644 => 100755 app/views/layouts/_errors.html.erb
+ mode change 100644 => 100755 app/views/layouts/_main_menu.html.erb
+ mode change 100644 => 100755 app/views/layouts/pdf.html.erb
+ mode change 100644 => 100755 app/views/layouts/pdf_footer.html.erb
+ mode change 100644 => 100755 app/views/layouts/pdf_header.html.erb
+ mode change 100644 => 100755 app/views/observation_groups/_edit.erb
+ mode change 100644 => 100755 app/views/observation_groups/_edit_observation.erb
+ mode change 100644 => 100755 app/views/observation_groups/_errors.html.erb
+ mode change 100644 => 100755 app/views/observation_groups/_new.erb
+ mode change 100644 => 100755 app/views/observation_groups/_new_observation.erb
+ mode change 100644 => 100755 app/views/observation_groups/_observation_groups.erb
+ mode change 100644 => 100755 app/views/observation_groups/_observations.erb
+ mode change 100644 => 100755 app/views/observation_groups/_select_observation_group.erb
+ mode change 100644 => 100755 app/views/observation_groups/assign_courses.html.erb
+ mode change 100644 => 100755 app/views/observation_groups/create.rjs
+ mode change 100644 => 100755 app/views/observation_groups/create_observation.rjs
+ mode change 100644 => 100755 app/views/observation_groups/edit.rjs
+ mode change 100644 => 100755 app/views/observation_groups/edit_observation.rjs
+ mode change 100644 => 100755 app/views/observation_groups/index.html.erb
+ mode change 100644 => 100755 app/views/observation_groups/new.rjs
+ mode change 100644 => 100755 app/views/observation_groups/new_observation.rjs
+ mode change 100644 => 100755 app/views/observation_groups/show.html.erb
+ mode change 100644 => 100755 app/views/observation_groups/update.rjs
+ mode change 100644 => 100755 app/views/observation_groups/update_observation.rjs
+ mode change 100644 => 100755 app/views/ranking_levels/_course_ranking_levels.html.erb
+ mode change 100644 => 100755 app/views/ranking_levels/_rank_edit_form.html.erb
+ mode change 100644 => 100755 app/views/ranking_levels/_rank_errors.html.erb
+ mode change 100644 => 100755 app/views/ranking_levels/_rank_form.html.erb
+ mode change 100644 => 100755 app/views/ranking_levels/_ranking_levels.html.erb
+ mode change 100644 => 100755 app/views/ranking_levels/index.html.erb
+ mode change 100644 => 100755 app/views/scheduled_jobs/index.html.erb
+ mode change 100644 => 100755 app/views/sms/show_sms_logs.html.erb
+ mode change 100644 => 100755 app/views/sms/show_sms_messages.html.erb
+ mode change 100644 => 100755 app/views/student/_previous_subject_added_new.html.erb
+ mode change 100644 => 100755 app/views/student/delete_previous_subject.rjs
+ mode change 100644 => 100755 app/views/student/fee_details.erb
+ mode change 100644 => 100755 app/views/student/generate_all_tc_pdf.erb
+ mode change 100644 => 100755 app/views/student/generate_tc_pdf.erb
+ mode change 100644 => 100755 app/views/student/previous_data_edit.html.erb
+ mode change 100644 => 100755 app/views/student/profile_pdf.erb
+ mode change 100644 => 100755 app/views/timetable/_employee_timetable.erb
+ mode change 100644 => 100755 app/views/timetable/_no_period_entry.html.erb
+ mode change 100644 => 100755 app/views/timetable/_student_timetable.erb
+ mode change 100644 => 100755 app/views/timetable/_teacher_timetable.erb
+ mode change 100644 => 100755 app/views/timetable/edit_master.html.erb
+ mode change 100644 => 100755 app/views/timetable/employee_timetable.html.erb
+ mode change 100644 => 100755 app/views/timetable/new_timetable.html.erb
+ mode change 100644 => 100755 app/views/timetable/teachers_timetable.html.erb
+ mode change 100644 => 100755 app/views/timetable/timetable_pdf.erb
+ mode change 100644 => 100755 app/views/timetable/update_timetable.html.erb
+ mode change 100644 => 100755 app/views/timetable/work_allotment.html.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_employee_list.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_employee_select.html.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_new_entry.html.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_select_batch.html.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_select_batch.html_1.erb
+ mode change 100644 => 100755 app/views/timetable_entries/_timetable_box.html.erb
+ mode change 100644 => 100755 app/views/timetable_entries/new.html.erb
+ mode change 100644 => 100755 app/views/user/_news_bar.html.erb
+ mode change 100644 => 100755 app/views/user/_parent_user.erb
+ mode change 100644 => 100755 config/initializers/delayed_job_config.rb
+ mode change 100644 => 100755 config/initializers/fedena_setting.rb
+ mode change 100644 => 100755 config/initializers/i18n_initializer.rb
+ mode change 100644 => 100755 config/initializers/wicked_pdf.rb
+ mode change 100644 => 100755 config/locale_settings.yml
+ mode change 100644 => 100755 config/locales/ar.yml
+ mode change 100644 => 100755 config/locales/de.yml
+ mode change 100644 => 100755 config/locales/hi.yml
+ mode change 100644 => 100755 config/locales/ja.yml
+ mode change 100644 => 100755 config/locales/mr.yml
+ mode change 100644 => 100755 config/locales/pt.yml
+ mode change 100644 => 100755 config/preinitializer.rb
+ mode change 100644 => 100755 config/sms_settings.yml.example
+ mode change 100644 => 100755 db/migrate/20110510121550_add_columns_to_student.rb
+ mode change 100644 => 100755 db/migrate/20110511053223_add_columns_to_employee.rb
+ mode change 100644 => 100755 db/migrate/20110516110336_add_index_to_fedena.rb
+ mode change 100644 => 100755 db/migrate/20110706114907_change_finance_transaction.rb
+ mode change 100644 => 100755 db/migrate/20110711100500_create_user_events.rb
+ mode change 100644 => 100755 db/migrate/20110721122326_create_fee_discounts.rb
+ mode change 100644 => 100755 db/migrate/20110728115723_create_fee_collection_discounts.rb
+ mode change 100644 => 100755 db/migrate/20110729055539_create_fee_collection_particulars.rb
+ mode change 100644 => 100755 db/migrate/20110730100503_add_index_to_fedena2.rb
+ mode change 100644 => 100755 db/migrate/20110805072425_add_former_to_archived_employee.rb
+ mode change 100644 => 100755 db/migrate/20110810052138_add_user_id_to_students_employees.rb
+ mode change 100644 => 100755 db/migrate/20110912062640_add_polymorphic_to_finance_transaction.rb
+ mode change 100644 => 100755 db/migrate/20110928054502_add_reciept_and_voucher_no_to_finance_transaction.rb
+ mode change 100644 => 100755 db/migrate/20111015111840_add_polymorphic_to_event.rb
+ mode change 100644 => 100755 db/migrate/20111020074717_add_is_paid_to_finance_fees.rb
+ mode change 100644 => 100755 db/migrate/20111105052819_add_fields_to_privilege.rb
+ mode change 100644 => 100755 db/migrate/20120321065124_create_school_details.rb
+ mode change 100644 => 100755 db/migrate/20120326114112_add_remark_to_monthly_payslip.rb
+ mode change 100644 => 100755 db/migrate/20120404051019_create_timetables.rb
+ mode change 100644 => 100755 db/migrate/20120404051814_add_timetable_id_to_timetable_entries.rb
+ mode change 100644 => 100755 db/migrate/20120404052524_add_columns_to_weekdays.rb
+ mode change 100644 => 100755 db/migrate/20120410081920_create_subject_leaves.rb
+ mode change 100644 => 100755 db/migrate/20120413090231_change_data_type_of_monthdate.rb
+ mode change 100644 => 100755 db/migrate/20120420085643_add_is_approved_column_to_news_comments.rb
+ mode change 100644 => 100755 db/migrate/20120421061939_create_class_designations.rb
+ mode change 100644 => 100755 db/migrate/20120421062319_create_ranking_levels.rb
+ mode change 100644 => 100755 db/migrate/20120421062549_add_credit_points_to_grading_levels.rb
+ mode change 100644 => 100755 db/migrate/20120421062750_add_grading_type_to_batches.rb
+ mode change 100644 => 100755 db/migrate/20120421062917_add_credit_hours_to_subjects.rb
+ mode change 100644 => 100755 db/migrate/20120421063035_add_is_final_exam_to_exam_groups.rb
+ mode change 100644 => 100755 db/migrate/20120423061415_add_parent_column_to_user.rb
+ mode change 100644 => 100755 db/migrate/20120423100037_add_is_deleted_to_weekdays_and_class_timing.rb
+ mode change 100644 => 100755 db/migrate/20120424092335_change_credit_points_to_decimal.rb
+ mode change 100644 => 100755 db/migrate/20120425052412_add_user_column_to_guardian.rb
+ mode change 100644 => 100755 db/migrate/20120427102307_add_batch_id_to_attendance_and_subject_leave.rb
+ mode change 100644 => 100755 db/migrate/20120503062405_add_amount_to_subjects.rb
+ mode change 100644 => 100755 db/migrate/20120503112304_add_index_to_fedena3.rb
+ mode change 100644 => 100755 db/migrate/20120504123001_create_delayed_jobs.rb
+ mode change 100644 => 100755 db/migrate/20120507064439_add_lower_limit_to_ranking_levels.rb
+ mode change 100644 => 100755 db/migrate/20120508085619_add_weightage_to_grouped_exams.rb
+ mode change 100644 => 100755 db/migrate/20120510070334_create_grouped_exam_reports.rb
+ mode change 100644 => 100755 db/migrate/20120514050238_create_fa_criterias.rb
+ mode change 100644 => 100755 db/migrate/20120514050318_create_observation_groups.rb
+ mode change 100644 => 100755 db/migrate/20120514050339_create_observations.rb
+ mode change 100644 => 100755 db/migrate/20120514050353_create_descriptive_indicators.rb
+ mode change 100644 => 100755 db/migrate/20120514050415_create_assessment_tools.rb
+ mode change 100644 => 100755 db/migrate/20120514050433_create_cce_grade_sets.rb
+ mode change 100644 => 100755 db/migrate/20120514050455_create_cce_grades.rb
+ mode change 100644 => 100755 db/migrate/20120514050500_create_cce_weightages.rb
+ mode change 100644 => 100755 db/migrate/20120514050522_create_cce_exam_categories.rb
+ mode change 100644 => 100755 db/migrate/20120514050548_create_assessment_scores.rb
+ mode change 100644 => 100755 db/migrate/20120514050603_create_cce_reports.rb
+ mode change 100644 => 100755 db/migrate/20120514063103_create_courses_observation_groups.rb
+ mode change 100644 => 100755 db/migrate/20120514063142_create_cce_weightages_courses.rb
+ mode change 100644 => 100755 db/migrate/20120516052659_add_full_course_to_ranking_levels.rb
+ mode change 100644 => 100755 db/migrate/20120517112833_create_sms_logs.rb
+ mode change 100644 => 100755 db/migrate/20120517122038_create_sms_messages.rb
+ mode change 100644 => 100755 db/migrate/20120518091221_add_marks_to_class_designations.rb
+ mode change 100644 => 100755 db/migrate/20120521120315_create_fa_groups.rb
+ mode change 100644 => 100755 db/migrate/20120522065318_create_batch_groups.rb
+ mode change 100644 => 100755 db/migrate/20120522065410_create_grouped_batches.rb
+ mode change 100644 => 100755 db/migrate/20120525100324_add_index_to_fedena_gpa_and_cwa.rb
+ mode change 100644 => 100755 db/migrate/20120528060855_create_fa_groups_subjects.rb
+ mode change 100644 => 100755 db/migrate/20120530120325_add_observation_kind_to_observation_groups.rb
+ mode change 100644 => 100755 db/migrate/20120602095356_add_cce_enabled_to_courses.rb
+ mode change 100644 => 100755 db/migrate/20120606050404_remove_grading_type_from_batches.rb
+ mode change 100644 => 100755 db/migrate/20120606050437_add_grading_type_to_courses.rb
+ mode change 100644 => 100755 db/migrate/20120608090107_add_course_id_to_ranking_levels.rb
+ mode change 100644 => 100755 db/migrate/20120608090126_add_course_id_to_class_designations.rb
+ mode change 100644 => 100755 db/migrate/20120613063621_add_cce_exam_category_id_to_exam_groups.rb
+ mode change 100644 => 100755 db/migrate/20120613070054_remove_cce_enabled_from_courses.rb
+ mode change 100644 => 100755 db/migrate/20120614092829_add_exam_id_to_assessment_scores.rb
+ mode change 100644 => 100755 db/migrate/20120615084815_remove_table_assessment_tools.rb
+ mode change 100644 => 100755 db/migrate/20120615085346_add_descriptive_indicator_id_to_assessment_scores.rb
+ mode change 100644 => 100755 db/migrate/20120615103301_add_cce_grade_set_to_fa_groups.rb
+ mode change 100644 => 100755 db/migrate/20120618053150_add_exam_id_to_cce_reports.rb
+ mode change 100644 => 100755 db/migrate/20120618102301_add_order_to_fa_criteria_and_observations.rb
+ mode change 100644 => 100755 db/migrate/20120625072331_add_max_marks_to_observation_groups.rb
+ mode change 100644 => 100755 db/migrate/20120625073818_add_max_marks_to_fa_groups.rb
+ mode change 100644 => 100755 db/migrate/20120626082424_add_limit_types_to_ranking_levels.rb
+ mode change 100644 => 100755 db/migrate/20120702062719_create_previous_exam_scores.rb
+ mode change 100644 => 100755 db/migrate/20120704103545_add_cce_indices.rb
+ mode change 100644 => 100755 db/migrate/20120706090514_add_privilege_for_student_view.rb
+ mode change 100644 => 100755 db/migrate/20120706103712_add_gpa_cwa_indices.rb
+ mode change 100644 => 100755 db/migrate/20120710054428_add_is_deleted_to_cce_tables.rb
+ mode change 100644 => 100755 db/migrate/20120816045034_create_time_zones.rb
+ mode change 100644 => 100755 lib/auto_leave_reset.rb
+ mode change 100644 => 100755 lib/cce_report_mod.rb
+ mode change 100644 => 100755 lib/custom_in_place_editing.rb
+ mode change 100644 => 100755 lib/delayed_reminder_job.rb
+ mode change 100644 => 100755 lib/fedena_plugin.rb
+ mode change 100644 => 100755 lib/payslip_transaction_job.rb
+ mode change 100644 => 100755 lib/tasks/cleanup_attendance.rake
+ mode change 100644 => 100755 lib/tasks/fedena_plugin_install.rake
+ mode change 100644 => 100755 lib/tasks/windows_patch.rake
+ mode change 100644 => 100755 log/development.log
+ create mode 100755 pdfbin/wkhtmltopdf-amd64
+ create mode 100755 pdfbin/wkhtmltopdf-i386
+ mode change 100644 => 100755 public/images/404.png
+ mode change 100644 => 100755 public/images/500.png
+ mode change 100644 => 100755 public/images/HR/leave-new.png
+ mode change 100644 => 100755 public/images/application/app_fedena_logo.png
+ mode change 100644 => 100755 public/images/application/app_layout_header_bg.png
+ mode change 100644 => 100755 public/images/application/chat.png
+ mode change 100644 => 100755 public/images/application/error_page_bg.png
+ mode change 100644 => 100755 public/images/application/logout.png
+ mode change 100644 => 100755 public/images/application/msg.png
+ mode change 100644 => 100755 public/images/application/note-bg.png
+ mode change 100644 => 100755 public/images/application/pattern_fedena_header.png
+ mode change 100644 => 100755 public/images/application/profile.png
+ mode change 100644 => 100755 public/images/application/top-link-bg.png
+ mode change 100644 => 100755 public/images/arrow-down.gif
+ mode change 100644 => 100755 public/images/arrow-none.gif
+ mode change 100644 => 100755 public/images/arrow-up.gif
+ mode change 100644 => 100755 public/images/examination/header_underline_rtl.jpg
+ mode change 100644 => 100755 public/images/fedena_user/dashboard/content_header_img_rtl.jpg
+ mode change 100644 => 100755 public/images/master_student/profile/topbanner_rtl.png
+ mode change 100644 => 100755 public/images/search.png
+ mode change 100644 => 100755 public/images/search_icon.png
+ mode change 100644 => 100755 public/javascripts/attendance.js
+ create mode 100644 public/javascripts/cache/javascripts/all.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/format_danish.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/format_euro_24hr_ymd.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/ar.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/da.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/de.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/es.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/fr.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/hi.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/it.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/ja.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/mr.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/nl.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/pt.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/ru.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/sl.js
+ mode change 100644 => 100755 public/javascripts/calendar_date_select/locale/sv.js
+ mode change 100644 => 100755 public/javascripts/date.js
+ mode change 100644 => 100755 public/javascripts/jquery/jquery.hotkeys.js
+ mode change 100644 => 100755 public/javascripts/jquery/jquery.min.js
+ mode change 100644 => 100755 public/javascripts/sortable.js
+ mode change 100644 => 100755 public/javascripts/subject_leave.js
+ mode change 100644 => 100755 public/javascripts/work_allotment.js
+ mode change 100644 => 100755 public/stylesheets/_layouts/pdf.css
+ mode change 100644 => 100755 public/stylesheets/archived_employee/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/archived_student/generated_report4_pdf.css
+ mode change 100644 => 100755 public/stylesheets/archived_student/generated_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/assessment_scores/fa_groups.css
+ mode change 100644 => 100755 public/stylesheets/assessment_scores/fa_scores.css
+ mode change 100644 => 100755 public/stylesheets/assessment_scores/index.css
+ mode change 100644 => 100755 public/stylesheets/attendance_reports/filter_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/attendance_reports/report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/autosuggest-menu.css
+ mode change 100644 => 100755 public/stylesheets/cce_exam_categories/index.css
+ mode change 100644 => 100755 public/stylesheets/cce_exam_categories/show.css
+ mode change 100644 => 100755 public/stylesheets/cce_grade_sets/index.css
+ mode change 100644 => 100755 public/stylesheets/cce_reports/create_reports.css
+ mode change 100644 => 100755 public/stylesheets/cce_reports/student_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/cce_reports/student_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/cce_weightages/assign_courses.css
+ mode change 100644 => 100755 public/stylesheets/cce_weightages/assign_weightages.css
+ mode change 100644 => 100755 public/stylesheets/cce_weightages/index.css
+ mode change 100644 => 100755 public/stylesheets/cce_weightages/show.css
+ mode change 100644 => 100755 public/stylesheets/class_designations/index.css
+ mode change 100644 => 100755 public/stylesheets/courses/grouped_batches.css
+ mode change 100644 => 100755 public/stylesheets/employee/advanced_search_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/department_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/employee_individual_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/individual_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/remove_subordinate_employee.css
+ mode change 100644 => 100755 public/stylesheets/employee/timetable_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee/view_employee_payslip.css
+ mode change 100644 => 100755 public/stylesheets/employee_attendance/employee_attendance_pdf.css
+ mode change 100644 => 100755 public/stylesheets/employee_attendance/employee_weekday.css
+ mode change 100644 => 100755 public/stylesheets/employee_attendance/leave_history.css
+ mode change 100644 => 100755 public/stylesheets/employee_attendance/leave_reset_settings.css
+ mode change 100644 => 100755 public/stylesheets/error_page.css
+ mode change 100644 => 100755 public/stylesheets/event/edit_event.css
+ mode change 100644 => 100755 public/stylesheets/exam/attendance_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/batch_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/combined_grouped_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/combined_report.css
+ mode change 100644 => 100755 public/stylesheets/exam/consolidated_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/course_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/edit_previous_marks.css
+ mode change 100644 => 100755 public/stylesheets/exam/generate_previous_reports.css
+ mode change 100644 => 100755 public/stylesheets/exam/generate_reports.css
+ mode change 100644 => 100755 public/stylesheets/exam/generated_report2_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/generated_report4_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/generated_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/previous_batch_exams.css
+ mode change 100644 => 100755 public/stylesheets/exam/previous_years_marks_overview_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/ranking_level_report.css
+ mode change 100644 => 100755 public/stylesheets/exam/report_center.css
+ mode change 100644 => 100755 public/stylesheets/exam/settings.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_attendance_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_attendance_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_batch_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_batch_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_combined_report.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_combined_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_course_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_course_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_ranking_level_report.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_ranking_level_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_school_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_school_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_subject_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_subject_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_transcript.css
+ mode change 100644 => 100755 public/stylesheets/exam/student_transcript_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam/subject_rank.css
+ mode change 100644 => 100755 public/stylesheets/exam/transcript.css
+ mode change 100644 => 100755 public/stylesheets/exam_reports/archived_batches_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/exam_reports/archived_batches_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/exam_reports/archived_exam_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/exam_reports/consolidated_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/exam_reports/consolidated_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/fa_groups/assign_fa_groups.css
+ mode change 100644 => 100755 public/stylesheets/finance/asset_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/collection_details_view.css
+ mode change 100644 => 100755 public/stylesheets/finance/donation_edit.css
+ mode change 100644 => 100755 public/stylesheets/finance/donation_receipt_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/donors.css
+ mode change 100644 => 100755 public/stylesheets/finance/expense_list_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/expense_list_update.css
+ mode change 100644 => 100755 public/stylesheets/finance/fee_collection_create.css
+ mode change 100644 => 100755 public/stylesheets/finance/fee_collection_new.css
+ mode change 100644 => 100755 public/stylesheets/finance/fee_defaulters_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/fee_discount_new.css
+ mode change 100644 => 100755 public/stylesheets/finance/fee_discounts.css
+ mode change 100644 => 100755 public/stylesheets/finance/fees_particulars_create.css
+ mode change 100644 => 100755 public/stylesheets/finance/fees_particulars_new.css
+ mode change 100644 => 100755 public/stylesheets/finance/income_details.css
+ mode change 100644 => 100755 public/stylesheets/finance/income_details_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/income_list_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/liability_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/pdf_fee_structure.css
+ mode change 100644 => 100755 public/stylesheets/finance/student_fee_receipt_pdf.css
+ mode change 100644 => 100755 public/stylesheets/finance/transaction_pdf.css
+ mode change 100644 => 100755 public/stylesheets/observation_groups/assign_courses.css
+ mode change 100644 => 100755 public/stylesheets/observation_groups/index.css
+ mode change 100644 => 100755 public/stylesheets/observation_groups/show.css
+ mode change 100644 => 100755 public/stylesheets/ranking_levels/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_layouts/dashboard.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_layouts/forgotpw.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_layouts/login.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_layouts/pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_layouts/style.css
+ mode change 100644 => 100755 public/stylesheets/rtl/_styles/ui.all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/academic_year/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/academic_year/migrate_classes.css
+ mode change 100644 => 100755 public/stylesheets/rtl/academic_year/migrate_students.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam/create_additional_exam.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/create_exam.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/edit_examtype.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/edit_grading.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exam_groups/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exams/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exams/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exams/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exams/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/additional_exams/update.css
+ mode change 100644 => 100755 public/stylesheets/rtl/application.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_employee/profile.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_employee/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/delete.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/generated_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/generated_report4_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/generated_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/guardians.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/previous_years_marks_overview.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/profile.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/reports.css
+ mode change 100644 => 100755 public/stylesheets/rtl/archived_student/student_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance/register.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance/report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance/student_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance_reports/filter.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance_reports/filter_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance_reports/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance_reports/report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendance_reports/student_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/attendances/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/autosuggest-menu.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batch_transfers/graduation.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batch_transfers/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batch_transfers/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batch_transfers/subject_transfer.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/assign_tutor.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/batches/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar/view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar_date_select/blue.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar_date_select/default.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar_date_select/plain.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar_date_select/red.css
+ mode change 100644 => 100755 public/stylesheets/rtl/calendar_date_select/silver.css
+ mode change 100644 => 100755 public/stylesheets/rtl/class_designations/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/class_timings/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/class_timings/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/configuration/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/configuration/settings.css
+ mode change 100644 => 100755 public/stylesheets/rtl/course/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/course/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/course/email.css
+ mode change 100644 => 100755 public/stylesheets/rtl/course/upcoming_exams.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/grouped_batches.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/manage_batches.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/manage_course.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/courses/update.css
+ mode change 100644 => 100755 public/stylesheets/rtl/elective_groups/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/elective_groups/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/elective_groups/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/elective_groups/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/elective_groups/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_additional_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_bank_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_category.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_department.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_grade.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/add_position.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/admission1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/admission2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/admission3.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/admission3_1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/admission4.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/advanced_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/advanced_search_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/change_reporting_manager.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/change_to_former.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/create_monthly_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/department_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/department_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit3.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit3_1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit4.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_additional_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_bank_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_category.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_contact.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_department.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_grade.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_monthly_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_personal.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_position.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_privilege.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/edit_rejected_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/employee_attendance.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/employee_individual_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/employee_management.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/hr.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/individual_payslip_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/leave_management.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/payslip_approve.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/profile.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/rejected_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/remove.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/remove_subordinate_employee.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/select_department_employee.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/select_reporting_manager.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/settings.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/subject_assignment.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/timetable_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/view_all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/view_employee_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee/view_rejected_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/add_leave_types.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/apply_leave.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/edit_leave_types.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/emp_attendance.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_attendance_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_leave_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_leave_reset_all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_leave_reset_by_department.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_leave_reset_by_employee.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/employee_weekday.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/leave_app.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/leave_application.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/leave_history.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/leave_reset_settings.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/leaves.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/manual_reset.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/own_leave_application.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/register.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendance/reset_leave.css
+ mode change 100644 => 100755 public/stylesheets/rtl/employee_attendances/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/event/edit_event.css
+ mode change 100644 => 100755 public/stylesheets/rtl/event/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/event/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/attendance_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/batch_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/combined_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/consolidated_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/consolidated_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/course_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/create_exam.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/create_examtype.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/edit_examtype.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/edit_grading.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/edit_previous_marks.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/enter_result.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/exam_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generate_previous_reports.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generate_reports.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report2_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report3.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report4.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report4_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/generated_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/grouped_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/grouping.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/previous_batch_exams.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/previous_years_marks_overview.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/previous_years_marks_overview_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/ranking_level_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/report_center.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/select_class.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/settings.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_attendance_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_attendance_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_batch_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_batch_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_combined_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_combined_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_course_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_course_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_ranking_level_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_ranking_level_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_school_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_school_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_subject_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_subject_rank_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_transcript.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/student_transcript_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/subject_rank.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/subject_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam/transcript.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_groups/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_groups/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_groups/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_groups/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_groups/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_reports/archived_batches_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_reports/archived_batches_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_reports/archived_exam_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_reports/consolidated_exam_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exam_reports/consolidated_exam_report_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exams/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exams/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exams/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exams/show.css
+ mode change 100644 => 100755 public/stylesheets/rtl/exams/update.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/add_particulars.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/additional_fees.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/additional_fees_create_form.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/additional_fees_list.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/additional_particulars.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/approve_monthly_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/asset.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/asset_liability.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/asset_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/automatic_transactions.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/batch_fees_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/categories.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/collection_details_view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/compare_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/direct_expenses.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/direct_expenses_year.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/direct_income.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/direct_income_year.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donation.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donation_edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donation_receipt.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donation_receipt_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donations_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donations_report_year.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/donors.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/each_asset_view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/each_liability_view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/employee_payslip_monthly_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/expense_create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/expense_edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/expense_list.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/expense_list_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_collection.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_collection_create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_collection_new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_collection_view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_defaulters_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_discount_new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_discounts.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fee_submission.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_defaulters.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_particulars.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_particulars_create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_particulars_new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_report_year.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_structure_dates.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_structure_student_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_student_dates.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_student_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_student_specific.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_student_structure_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_submission_batch.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/fees_submission_index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/income_create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/income_edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/income_list.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/income_list_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/liability.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/liability_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/master_category_particulars.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/master_fees.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/master_fees_index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/monthly_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/pay_fees_defaulters.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/payslip_index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/pdf_fee_structure.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/salary_department.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/salary_employee.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/salary_employee_year.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/student_fee_receipt_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/student_fees_structure.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/transaction_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/transactions.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/update_fees_specific.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/update_monthly_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_asset.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_employee_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_liability.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_monthly_payslip.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_monthly_payslip_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/view_payslip_dept.css
+ mode change 100644 => 100755 public/stylesheets/rtl/finance/year_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/grading_levels/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/holiday/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/holiday/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/modalbox.css
+ mode change 100644 => 100755 public/stylesheets/rtl/news/add.css
+ mode change 100644 => 100755 public/stylesheets/rtl/news/all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/news/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/news/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/news/view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/payroll/add_category.css
+ mode change 100644 => 100755 public/stylesheets/rtl/payroll/edit_category.css
+ mode change 100644 => 100755 public/stylesheets/rtl/payroll/edit_payroll_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/payroll/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/payroll/manage_payroll.css
+ mode change 100644 => 100755 public/stylesheets/rtl/popup.css
+ mode change 100644 => 100755 public/stylesheets/rtl/ranking_levels/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/redbox.css
+ mode change 100644 => 100755 public/stylesheets/rtl/reminder/create_reminder.css
+ mode change 100644 => 100755 public/stylesheets/rtl/reminder/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/reminder/sent_reminder.css
+ mode change 100644 => 100755 public/stylesheets/rtl/reminder/view_reminder.css
+ mode change 100644 => 100755 public/stylesheets/rtl/reminder/view_sent_reminder.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/batches.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/departments.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/employees.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/settings.css
+ mode change 100644 => 100755 public/stylesheets/rtl/sms/students.css
+ mode change 100644 => 100755 public/stylesheets/rtl/spinner.gif
+ mode change 100644 => 100755 public/stylesheets/rtl/student/academic_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/academic_report_all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/academic_reports.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/add_additional_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/add_guardian.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/admission1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/admission2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/admission3.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/admission3_1.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/admission4.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/advanced_search.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/advanced_search_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/categories.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/change_to_former.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/delete.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/edit_additional_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/edit_admission4.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/edit_guardian.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/electives.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/email.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/exam_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/fee_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/fees.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/generate_all_tc_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/generate_tc_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/guardians.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/previous_data.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/previous_data_edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/previous_years_marks_overview.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/profile.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/remove.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/reports.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/show_previous_details.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/subject_wise_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student/view_all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student_attendance/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student_attendance/student.css
+ mode change 100644 => 100755 public/stylesheets/rtl/student_attendance/student_report.css
+ mode change 100644 => 100755 public/stylesheets/rtl/subject/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/subject/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/subject/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/subjects/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/edit2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/edit_master.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/extra_class.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/new_timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/select_class.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/select_class2.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/student_view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/teachers_timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/timetable_pdf.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/update_timetable.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/view.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable/work_allotment.css
+ mode change 100644 => 100755 public/stylesheets/rtl/timetable_entries/new.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/all.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/change_password.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/create.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/dashboard.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/edit.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/edit_privilege.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/index.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/login.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/profile.css
+ mode change 100644 => 100755 public/stylesheets/rtl/user/user_change_password.css
+ mode change 100644 => 100755 public/stylesheets/rtl/weekday/index.css
+ mode change 100644 => 100755 public/stylesheets/scheduled_jobs/index.css
+ mode change 100644 => 100755 public/stylesheets/student/advanced_search_pdf.css
+ mode change 100644 => 100755 public/stylesheets/student/fee_details.css
+ mode change 100644 => 100755 public/stylesheets/student/generate_all_tc_pdf.css
+ mode change 100644 => 100755 public/stylesheets/student/generate_tc_pdf.css
+ mode change 100644 => 100755 public/stylesheets/student/previous_data_edit.css
+ mode change 100644 => 100755 public/stylesheets/student/profile_pdf.css
+ mode change 100644 => 100755 public/stylesheets/timetable/edit_master.css
+ mode change 100644 => 100755 public/stylesheets/timetable/employee_timetable.css
+ mode change 100644 => 100755 public/stylesheets/timetable/new_timetable.css
+ mode change 100644 => 100755 public/stylesheets/timetable/teachers_timetable.css
+ mode change 100644 => 100755 public/stylesheets/timetable/timetable_pdf.css
+ mode change 100644 => 100755 public/stylesheets/timetable/work_allotment.css
+ mode change 100644 => 100755 public/stylesheets/timetable_entries/new.css
+ mode change 100644 => 100755 public/stylesheets/user/login.css
+ mode change 100644 => 100755 public/system/photos/.gitkeep
+ mode change 100644 => 100755 public/uploads/image/.gitkeep
+ create mode 100755 s/README
+ create mode 100755 s/Rakefile
+ create mode 100755 s/app/controllers/application_controller.rb
+ create mode 100755 s/app/helpers/application_helper.rb
+ create mode 100755 s/config/boot.rb
+ create mode 100755 s/config/database.yml
+ create mode 100755 s/config/environment.rb
+ create mode 100755 s/config/environments/development.rb
+ create mode 100755 s/config/environments/production.rb
+ create mode 100755 s/config/environments/test.rb
+ create mode 100755 s/config/initializers/backtrace_silencers.rb
+ create mode 100755 s/config/initializers/inflections.rb
+ create mode 100755 s/config/initializers/mime_types.rb
+ create mode 100755 s/config/initializers/new_rails_defaults.rb
+ create mode 100755 s/config/initializers/session_store.rb
+ create mode 100755 s/config/locales/en.yml
+ create mode 100755 s/config/routes.rb
+ create mode 100755 s/db/seeds.rb
+ create mode 100755 s/doc/README_FOR_APP
+ create mode 100755 s/log/development.log
+ create mode 100755 s/log/production.log
+ create mode 100755 s/log/server.log
+ create mode 100755 s/log/test.log
+ create mode 100755 s/public/404.html
+ create mode 100755 s/public/422.html
+ create mode 100755 s/public/500.html
+ create mode 100755 s/public/favicon.ico
+ create mode 100755 s/public/images/rails.png
+ create mode 100755 s/public/index.html
+ create mode 100755 s/public/javascripts/application.js
+ create mode 100755 s/public/javascripts/controls.js
+ create mode 100755 s/public/javascripts/dragdrop.js
+ create mode 100755 s/public/javascripts/effects.js
+ create mode 100755 s/public/javascripts/prototype.js
+ create mode 100755 s/public/robots.txt
+ create mode 100755 s/script/about
+ create mode 100755 s/script/console
+ create mode 100755 s/script/dbconsole
+ create mode 100755 s/script/destroy
+ create mode 100755 s/script/generate
+ create mode 100755 s/script/performance/benchmarker
+ create mode 100755 s/script/performance/profiler
+ create mode 100755 s/script/plugin
+ create mode 100755 s/script/runner
+ create mode 100755 s/script/server
+ create mode 100755 s/test/performance/browsing_test.rb
+ create mode 100755 s/test/test_helper.rb
+ mode change 100644 => 100755 script/load_worker_env.rb
+ mode change 100644 => 100755 test/fixtures/assessment_scores.yml
+ mode change 100644 => 100755 test/fixtures/assessment_tools.yml
+ mode change 100644 => 100755 test/fixtures/batch_groups.yml
+ mode change 100644 => 100755 test/fixtures/cce_exam_categories.yml
+ mode change 100644 => 100755 test/fixtures/cce_grade_sets.yml
+ mode change 100644 => 100755 test/fixtures/cce_grades.yml
+ mode change 100644 => 100755 test/fixtures/cce_reports.yml
+ mode change 100644 => 100755 test/fixtures/cce_weightages.yml
+ mode change 100644 => 100755 test/fixtures/class_designations.yml
+ mode change 100644 => 100755 test/fixtures/descriptive_indicators.yml
+ mode change 100644 => 100755 test/fixtures/fa_criterias.yml
+ mode change 100644 => 100755 test/fixtures/fa_groups.yml
+ mode change 100644 => 100755 test/fixtures/fee_collection_discounts.yml
+ mode change 100644 => 100755 test/fixtures/fee_collection_particulars.yml
+ mode change 100644 => 100755 test/fixtures/fee_discounts.yml
+ mode change 100644 => 100755 test/fixtures/grouped_batches.yml
+ mode change 100644 => 100755 test/fixtures/grouped_exam_reports.yml
+ mode change 100644 => 100755 test/fixtures/languages.yml
+ mode change 100644 => 100755 test/fixtures/observation_groups.yml
+ mode change 100644 => 100755 test/fixtures/observations.yml
+ mode change 100644 => 100755 test/fixtures/previous_exam_scores.yml
+ mode change 100644 => 100755 test/fixtures/ranking_levels.yml
+ mode change 100644 => 100755 test/fixtures/sms_logs.yml
+ mode change 100644 => 100755 test/fixtures/sms_messages.yml
+ mode change 100644 => 100755 test/functional/assessment_scores_controller_test.rb
+ mode change 100644 => 100755 test/functional/assessment_tools_controller_test.rb
+ mode change 100644 => 100755 test/functional/cce_exam_categories_controller_test.rb
+ mode change 100644 => 100755 test/functional/cce_grade_sets_controller_test.rb
+ mode change 100644 => 100755 test/functional/cce_reports_controller_test.rb
+ mode change 100644 => 100755 test/functional/cce_weightages_controller_test.rb
+ mode change 100644 => 100755 test/functional/class_designations_controller_test.rb
+ mode change 100644 => 100755 test/functional/descriptive_indicators_controller_test.rb
+ mode change 100644 => 100755 test/functional/fa_criterias_controller_test.rb
+ mode change 100644 => 100755 test/functional/fa_groups_controller_test.rb
+ mode change 100644 => 100755 test/functional/observation_groups_controller_test.rb
+ mode change 100644 => 100755 test/functional/observations_controller_test.rb
+ mode change 100644 => 100755 test/functional/ranking_levels_controller_test.rb
+ mode change 100644 => 100755 test/functional/scheduled_jobs_controller_test.rb
+ mode change 100644 => 100755 test/unit/assessment_score_test.rb
+ mode change 100644 => 100755 test/unit/assessment_tool_test.rb
+ mode change 100644 => 100755 test/unit/batch_group_test.rb
+ mode change 100644 => 100755 test/unit/cce_exam_category_test.rb
+ mode change 100644 => 100755 test/unit/cce_grade_set_test.rb
+ mode change 100644 => 100755 test/unit/cce_grade_test.rb
+ mode change 100644 => 100755 test/unit/cce_report_test.rb
+ mode change 100644 => 100755 test/unit/cce_weightage_test.rb
+ mode change 100644 => 100755 test/unit/class_designation_test.rb
+ mode change 100644 => 100755 test/unit/configuration_test.rb
+ mode change 100644 => 100755 test/unit/descriptive_indicator_test.rb
+ mode change 100644 => 100755 test/unit/employee_category_test.rb
+ mode change 100644 => 100755 test/unit/employee_department_test.rb
+ mode change 100644 => 100755 test/unit/fa_criteria_test.rb
+ mode change 100644 => 100755 test/unit/fa_group_test.rb
+ mode change 100644 => 100755 test/unit/fee_collection_discount_test.rb
+ mode change 100644 => 100755 test/unit/fee_collection_particular_test.rb
+ mode change 100644 => 100755 test/unit/fee_discount_test.rb
+ mode change 100644 => 100755 test/unit/grouped_batch_test.rb
+ mode change 100644 => 100755 test/unit/grouped_exam_report_test.rb
+ mode change 100644 => 100755 test/unit/helpers/assessment_scores_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/assessment_tools_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/cce_exam_categories_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/cce_grade_sets_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/cce_reports_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/cce_weightages_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/class_designations_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/descriptive_indicators_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/fa_criterias_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/fa_groups_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/observation_groups_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/observations_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/ranking_levels_helper_test.rb
+ mode change 100644 => 100755 test/unit/helpers/scheduled_jobs_helper_test.rb
+ mode change 100644 => 100755 test/unit/language_test.rb
+ mode change 100644 => 100755 test/unit/observation_group_test.rb
+ mode change 100644 => 100755 test/unit/observation_test.rb
+ mode change 100644 => 100755 test/unit/previous_exam_score_test.rb
+ mode change 100644 => 100755 test/unit/ranking_level_test.rb
+ mode change 100644 => 100755 test/unit/sms_log_test.rb
+ mode change 100644 => 100755 test/unit/sms_message_test.rb
+ mode change 100644 => 100755 tmp/pids/backgroundrb_11006.pid
+ mode change 100644 => 100755 tmp/pids/backgroundrb_11006_worker_fedena_worker.pid
+ create mode 100755 typescript
+ create mode 100755 vendor/cache/actionmailer-2.3.5.gem
+ create mode 100755 vendor/cache/actionpack-2.3.5.gem
+ create mode 100755 vendor/cache/activerecord-2.3.5.gem
+ create mode 100755 vendor/cache/activeresource-2.3.5.gem
+ create mode 100755 vendor/cache/activesupport-2.3.5.gem
+ create mode 100755 vendor/cache/declarative_authorization-0.5.1.gem
+ create mode 100755 vendor/cache/fattr-2.2.1.gem
+ create mode 100755 vendor/cache/i18n-0.4.2.gem
+ create mode 100755 vendor/cache/mysql-2.8.1.gem
+ create mode 100755 vendor/cache/rack-1.0.1.gem
+ create mode 100755 vendor/cache/rails-2.3.5.gem
+ create mode 100755 vendor/cache/rake-0.8.7.gem
+ create mode 100755 vendor/cache/rush-0.6.8.gem
+ create mode 100755 vendor/cache/session-3.1.0.gem
+ mode change 100644 => 100755 vendor/plugins/delayed_job/MIT-LICENSE
+ mode change 100644 => 100755 vendor/plugins/delayed_job/README.textile
+ mode change 100644 => 100755 vendor/plugins/delayed_job/delayed_job.gemspec
+ mode change 100644 => 100755 vendor/plugins/delayed_job/generators/delayed_job_migration/delayed_job_migration_generator.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/generators/delayed_job_migration/templates/migration.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/init.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/job.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/manager.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/manager/heroku.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/manager/local.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/message_sending.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/performable_method.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed/worker.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/lib/delayed_job.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/spec/database.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/spec/delayed_method_spec.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/spec/job_spec.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/spec/manager_spec.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/spec/story_spec.rb
+ mode change 100644 => 100755 vendor/plugins/delayed_job/tasks/jobs.rake
+ mode change 100644 => 100755 vendor/plugins/delayed_job/tasks/tasks.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/Rakefile
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/Readme.markdown
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/VERSION
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/has_and_belongs_to_many_with_deferred_save.gemspec
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/init.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/install.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/lib/has_and_belongs_to_many_with_deferred_save.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/db/database.yml
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/db/schema.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/has_and_belongs_to_many_with_deferred_save_spec.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/models/door.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/models/person.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/models/room.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/spec/spec_helper.rb
+ mode change 100644 => 100755 vendor/plugins/has_and_belongs_to_many_with_deferred_save/uninstall.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/MIT-LICENSE
+ mode change 100644 => 100755 vendor/plugins/index_length/README.rdoc
+ mode change 100644 => 100755 vendor/plugins/index_length/Rakefile
+ mode change 100644 => 100755 vendor/plugins/index_length/init.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/lib/mysql_index_length.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/test/db/database.yml
+ mode change 100644 => 100755 vendor/plugins/index_length/test/db/people.yml
+ mode change 100644 => 100755 vendor/plugins/index_length/test/db/schema.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/test/mysql_index_length_test.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/test/schema_test.rb
+ mode change 100644 => 100755 vendor/plugins/index_length/test/test_helper.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/Appraisals
+ mode change 100644 => 100755 vendor/plugins/paperclip/Gemfile
+ mode change 100644 => 100755 vendor/plugins/paperclip/Gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/paperclip/LICENSE
+ mode change 100644 => 100755 vendor/plugins/paperclip/README.md
+ mode change 100644 => 100755 vendor/plugins/paperclip/Rakefile
+ mode change 100644 => 100755 vendor/plugins/paperclip/cucumber/paperclip_steps.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/basic.feature
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/s3.feature
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/step_definitions/html_steps.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/step_definitions/rails_steps.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/step_definitions/s3_steps.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/step_definitions/web_steps.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/support/env.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/support/paths.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/support/rails.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/features/support/s3.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/gemfiles/rails2.gemfile
+ mode change 100644 => 100755 vendor/plugins/paperclip/gemfiles/rails2.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/paperclip/gemfiles/rails3.gemfile
+ mode change 100644 => 100755 vendor/plugins/paperclip/gemfiles/rails3.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/paperclip/generators/paperclip/USAGE
+ mode change 100644 => 100755 vendor/plugins/paperclip/generators/paperclip/paperclip_generator.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/generators/paperclip/templates/paperclip_migration.rb.erb
+ mode change 100644 => 100755 vendor/plugins/paperclip/init.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/generators/paperclip/USAGE
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/generators/paperclip/templates/paperclip_migration.rb.erb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/attachment.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/callback_compatability.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/command_line.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/geometry.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/interpolations.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/iostream.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/matchers.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/matchers/have_attached_file_matcher.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_content_type_matcher.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_presence_matcher.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/matchers/validate_attachment_size_matcher.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/processor.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/railtie.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/storage.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/storage/filesystem.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/storage/fog.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/storage/s3.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/style.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/thumbnail.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/upfile.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/paperclip/version.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/lib/tasks/paperclip.rake
+ mode change 100644 => 100755 vendor/plugins/paperclip/paperclip.gemspec
+ mode change 100644 => 100755 vendor/plugins/paperclip/rails/init.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/shoulda_macros/paperclip.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/attachment_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/command_line_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/database.yml
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/12k.png
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/50x50.png
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/5k.png
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/bad.png
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/s3.yml
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/text.txt
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/twopage.pdf
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fixtures/uppercase.PNG
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/fog_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/geometry_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/helper.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/integration_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/interpolations_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/iostream_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/matchers/have_attached_file_matcher_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/matchers/validate_attachment_content_type_matcher_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/matchers/validate_attachment_presence_matcher_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/matchers/validate_attachment_size_matcher_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/paperclip_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/processor_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/storage_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/style_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/thumbnail_test.rb
+ mode change 100644 => 100755 vendor/plugins/paperclip/test/upfile_test.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/Appraisals
+ mode change 100644 => 100755 vendor/plugins/searchlogic/Gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/Gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/LICENSE
+ mode change 100644 => 100755 vendor/plugins/searchlogic/README.rdoc
+ mode change 100644 => 100755 vendor/plugins/searchlogic/Rakefile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/VERSION.yml
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.10.gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.10.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.11.gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.11.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.12.gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.12.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.14.gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.14.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.9.gemfile
+ mode change 100644 => 100755 vendor/plugins/searchlogic/gemfiles/ar2.3.9.gemfile.lock
+ mode change 100644 => 100755 vendor/plugins/searchlogic/init.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/active_record/consistency.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/active_record/named_scope_tools.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/active_record/scope.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/core_ext/object.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/core_ext/proc.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/alias_scope.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/association_conditions.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/association_ordering.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/base.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/column_conditions.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/or_conditions.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/named_scopes/ordering.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/rails_helpers.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/base.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/conditions.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/date_parts.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/implementation.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/method_missing.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/ordering.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/scopes.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/to_yaml.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/search/unknown_condition_error.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/lib/searchlogic/version.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/rails/init.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/searchlogic.gemspec
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/active_record/association_proxy_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/active_record/consistency_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/core_ext/object_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/core_ext/proc_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/alias_scope_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/association_conditions_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/association_ordering_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/column_conditions_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/or_conditions_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/named_scopes/ordering_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/searchlogic/search_spec.rb
+ mode change 100644 => 100755 vendor/plugins/searchlogic/spec/spec_helper.rb
+ mode change 100644 => 100755 vendor/plugins/translator/CHANGELOG
+ mode change 100644 => 100755 vendor/plugins/translator/MIT-LICENSE
+ mode change 100644 => 100755 vendor/plugins/translator/README.rdoc
+ mode change 100644 => 100755 vendor/plugins/translator/Rakefile
+ mode change 100644 => 100755 vendor/plugins/translator/VERSION.yml
+ mode change 100644 => 100755 vendor/plugins/translator/init.rb
+ mode change 100644 => 100755 vendor/plugins/translator/install.rb
+ mode change 100644 => 100755 vendor/plugins/translator/lib/translator.rb
+ mode change 100644 => 100755 vendor/plugins/translator/tasks/translator.rake
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/controllers/blog_posts_controller.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/helpers/blog_posts_helper.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/models/blog_comment_mailer.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/models/blog_post.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_comment_mailer/comment_notification.rhtml
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_posts/_footer.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_posts/about.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_posts/archives.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_posts/missing_translation.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/blog_posts/show.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/layouts/blog_layout.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/app/views/shared/_header.erb
+ mode change 100644 => 100755 vendor/plugins/translator/test/fixtures/schema.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/locales/en.yml
+ mode change 100644 => 100755 vendor/plugins/translator/test/locales/es.yml
+ mode change 100644 => 100755 vendor/plugins/translator/test/test_helper.rb
+ mode change 100644 => 100755 vendor/plugins/translator/test/translator_test.rb
+ mode change 100644 => 100755 vendor/plugins/translator/translator.gemspec
+ mode change 100644 => 100755 vendor/plugins/translator/uninstall.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/MIT-LICENSE
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/README.md
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/Rakefile
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/VERSION.yml
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/generators/wicked_pdf/templates/wicked_pdf.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/generators/wicked_pdf/wicked_pdf_generator.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/init.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/generators/wicked_pdf_generator.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/nix_pdf_renderer.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/pdf_helper.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/platform.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/wicked_pdf.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/wicked_pdf_helper.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/wicked_pdf_railtie.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/wicked_pdf_tempfile.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/lib/win32_pdf_renderer.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/test/fixtures/wicked.css
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/test/pdf_helper_test.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/test/test_helper.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/test/wicked_pdf_helper_test.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/test/wicked_pdf_test.rb
+ mode change 100644 => 100755 vendor/plugins/wicked_pdf/wicked_pdf.gemspec
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git remote add[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin https://github.com /sheyam/school-management.git
+fatal: remote origin already exists.
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# 
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git remote add origin https://github.com /sheyam/school-management.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crigin https://github.com/s[1Pheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cigin https://github.com/sh[1Peyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgin https://github.com/she[1Pyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cin https://github.com/shey[1Pam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn https://github.com/sheya[1Pm/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/sheyam[1P/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr https://github.com/sheyam/school-management.git[A]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[Kmaster origin
+Username for 'https://github.com': smartsheyam@gmail.com
+Password for 'https://smartsheyam@gmail.com@github.com': 
+fatal: refs/remotes/origin/HEAD cannot be resolved to branch.
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# Unexpected end of command stream
+^C
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[Kmaster origin
+Username for 'https://github.com': smatfr   rtsheyam@gmail.com
+Password for 'https://smartsheyam@gmail.com@github.com': 
+fatal: refs/remotes/origin/HEAD cannot be resolved to branch.
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# Unexpected end of command stream
+^C
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git push -u master origin[K[K[K[K[K[K[K[K[K[K[K[K[Korigin mastr[Ker
+Username for 'https://github.com': sma^[[A     artsheyam@gmail.com
+Password for 'https://smartsheyam@gmail.com@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/projectfedena/fedena/info/refs
+fatal: HTTP request failed
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# git push
+Username for 'https://github.com': smat rtsheyam@gmail.com
+Password for 'https://smartsheyam@gmail.com@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/projectfedena/fedena/info/refs
+fatal: HTTP request failed
+]0;root@ubuntu: ~/fedena-v2.3-bundle-linuxroot@ubuntu:~/fedena-v2.3-bundle-linux# cd
+]0;root@ubuntu: ~root@ubuntu:~# [H[2J]0;root@ubuntu: ~root@ubuntu:~# ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         [34;42mfedena-v2.3-bundle-linux[0m  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m                     [01;34mPublic[0m    [01;34mVideos[0m
+]0;root@ubuntu: ~root@ubuntu:~# cd .gi
+bash: cd: .gi: No such file or directory
+]0;root@ubuntu: ~root@ubuntu:~# cd[K[Kexit
+exit
+
+Script done on Sun 29 Dec 2013 12:35:08 AM PST

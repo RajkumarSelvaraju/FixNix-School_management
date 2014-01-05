@@ -1,0 +1,16 @@
+# Logfile created on Sun Dec 29 00:10:06 -0800 2013 by logger.rb/1.2.6
+I, [2013-12-29T00:10:06.508329 #7666]  INFO -- : 0:  rake (0.8.7) from /usr/lib/ruby/gems/1.8/specifications/rake-0.8.7.gemspec
+I, [2013-12-29T00:10:06.665347 #7666]  INFO -- : 0:  activesupport (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/activesupport-2.3.5.gemspec
+I, [2013-12-29T00:10:06.772743 #7666]  INFO -- : 0:  rack (1.0.1) from /usr/lib/ruby/gems/1.8/specifications/rack-1.0.1.gemspec
+I, [2013-12-29T00:10:07.130768 #7666]  INFO -- : 0:  actionpack (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/actionpack-2.3.5.gemspec
+I, [2013-12-29T00:10:07.258324 #7666]  INFO -- : 0:  actionmailer (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/actionmailer-2.3.5.gemspec
+I, [2013-12-29T00:10:07.490064 #7666]  INFO -- : 0:  activerecord (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/activerecord-2.3.5.gemspec
+I, [2013-12-29T00:10:07.567354 #7666]  INFO -- : 0:  activeresource (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/activeresource-2.3.5.gemspec
+I, [2013-12-29T00:10:07.614796 #7666]  INFO -- : 0:  declarative_authorization (0.5.1) from /usr/lib/ruby/gems/1.8/specifications/declarative_authorization-0.5.1.gemspec
+I, [2013-12-29T00:10:07.651253 #7666]  INFO -- : 0:  fattr (2.2.1) from /usr/lib/ruby/gems/1.8/specifications/fattr-2.2.1.gemspec
+I, [2013-12-29T00:10:07.695416 #7666]  INFO -- : 0:  i18n (0.4.2) from /usr/lib/ruby/gems/1.8/specifications/i18n-0.4.2.gemspec
+I, [2013-12-29T00:10:11.775407 #7666]  INFO -- : 0:  mysql (2.8.1) from /usr/lib/ruby/gems/1.8/specifications/mysql-2.8.1.gemspec
+I, [2013-12-29T00:10:11.929261 #7666]  INFO -- : 0:  rails (2.3.5) from /usr/lib/ruby/gems/1.8/specifications/rails-2.3.5.gemspec
+I, [2013-12-29T00:10:11.999072 #7666]  INFO -- : 0:  session (3.1.0) from /usr/lib/ruby/gems/1.8/specifications/session-3.1.0.gemspec
+I, [2013-12-29T00:10:12.059825 #7666]  INFO -- : 0:  rush (0.6.8) from /usr/lib/ruby/gems/1.8/specifications/rush-0.6.8.gemspec
+I, [2013-12-29T00:10:12.063051 #7666]  INFO -- : 0:  bundler (1.5.1) from /usr/lib/ruby/gems/1.8/specifications/bundler-1.5.1.gemspec
